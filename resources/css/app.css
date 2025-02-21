@@ -1,0 +1,166 @@
+/* Ensure Tailwind CSS is installed and configured correctly */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+
+  /* CoverFlowSlider.css */
+.slides {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+  }
+  
+  .slide {
+    grid-area: 1/-1;
+    opacity: 0.7;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slideContent {
+    width: 30vw;
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translateX(calc(100% * var(--offset))) 
+      rotateY(calc(-45deg * var(--dir)));
+  }
+  
+  .slideBackground {
+    position: fixed;
+    top: 0;
+    left: -10%;
+    right: -10%;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+  
+  .slide[data-active] {
+    z-index: 2;
+    opacity: 1;
+  }
+  
+  .slide[data-active] .slideContent {
+    --x: calc(var(--px) - 0.5);
+    --y: calc(var(--py) - 0.5);
+    transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) 
+      rotateX(calc(var(--y) * -45deg));
+  }
+  
+  .slide[data-active] .slideBackground {
+    opacity: 0.2;
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 5rem;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .navButton:first-child { left: 2rem; }
+  .navButton:last-child { right: 2rem; }
+  
+  .slideContentInner {
+    transform: translateZ(2rem);
+    color: white;
+    text-shadow: 0 0.1rem 1rem #000;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .slide[data-active] .slideContentInner {
+    opacity: 1;
+  }
+  
+  .slideTitle {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .slideSubtitle {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+  }
+  
+  .slideDescription {
+    font-size: 1rem;
+    margin: 1rem 0 0;
+  }
+  
+
+  /* Timeline.css */
+.dark-timeline-container {
+    background: #030712;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+  }
+  
+  .react-chrono-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .custom-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #1F2937 !important;
+    border: 1px solid #374151;
+  }
+  
+  .custom-media img {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .custom-card-text h3 {
+    color: #E5E7EB !important;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-card-text p {
+    color: #9CA3AF !important;
+    line-height: 1.6;
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1F2937;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3B82F6;
+    border-radius: 4px;
+  }
+  
