@@ -18,6 +18,9 @@ use App\Http\Controllers\ArtCommissionController;
 Route::get('/', function () {
     return Inertia::render('Home'); // This will render resources/js/Pages/Home.jsx
 });
+Route::get('/tasks', function () {
+    return Inertia::render('Tasks');
+})->name('tasks');
 
 Route::view('/{any}', 'app')->where('any', '.*');
 
