@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import LoaderWithToggle from '@/Components/LoaderWithToggle';
-import CoverFlowSlider from '@/components/CoverFlowSlider';
+import CoverFlowSlider from '@/Components/CoverFlowSlider';
 import Card from '@/Components/Card';
 import SkillsChart from '@/Components/SkillsChart';
 import Timeline from '@/Components/Timline';
 import ArtCommissionForm from '@/Components/ArtCommissionForm';
+import TextPressure from '@/Components/TextPressure';
 
 const Home = () => {
     return (
