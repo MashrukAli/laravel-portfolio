@@ -17,7 +17,7 @@ const Navbar = () => {
                 {/* Centered Action Button */}
                 <div className="hidden md:flex items-center justify-center flex-1">
                     <a 
-                        href="https://github.com/your-username" 
+                        href="https://github.com/MashrukAli" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="group relative inline-flex items-center px-6 py-2.5 rounded-full bg-gray-900 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -35,7 +35,7 @@ const Navbar = () => {
                             />
                         </svg>
                         <span className="text-white font-medium tracking-wide">
-                            GitHub Profile
+                           My GitHub Profile
                         </span>
                         
                         {/* Hover Tooltip */}
@@ -50,7 +50,7 @@ const Navbar = () => {
                     href="/tasks" 
                     className="group relative inline-flex items-center px-6 py-2.5 rounded-full bg-gray-800 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                    <span className="text-white font-medium tracking-wide">Tasks</span>
+                    <span className="text-white font-medium tracking-wide">CRUD demo</span>
                 </Link>
             </div>
         </nav>

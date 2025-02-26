@@ -5,7 +5,7 @@ const slides = [
     title: "Machu Picchu",
     subtitle: "Peru",
     description: "Adventure is never far away",
-    image: "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277"
+    image: "https://i.postimg.cc/7PzKvH8s/Screenshot-2024-08-02-174829.png"
   },
   {
     title: "Chamonix",

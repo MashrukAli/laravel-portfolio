@@ -6,33 +6,33 @@ const Timeline = () => {
   const items = [
     {
       title: "2018",
-      cardTitle: "Start of Journey",
-      cardSubtitle: "Beginner Steps in Programming",
+      cardTitle: "3H　日本語学校",
+      cardSubtitle: "日本語学習取り組み",
       media: {
         type: "IMAGE",
-        source: { url: "https://example.com/2018-thumb.jpg" }
+        source: { url: "https://i.postimg.cc/pVmCtK4J/3h-japanese-language-school-1.png" }
       },
-      cardDetailedText: "Started learning fundamentals of web development with HTML/CSS and basic JavaScript."
+      cardDetailedText: "日本に来て、日本語学校に入学し、ここでN2の日本語能力試験に合格しました。/Studied Japanese in a japanese language school."
     },
     {
-      title: "2019",
-      cardTitle: "First Projects",
-      cardSubtitle: "Building Simple Applications",
+      title: "2020",
+      cardTitle: "秀明大学/Shumei University",
+      cardSubtitle: "秀明大学入学、学部：英語情報マネジメントIT/ Majored in Information management from Shumei University. During this time I passed N1 Japanese language proficiency test.",
       media: {
         type: "IMAGE",
-        source: { url: "https://example.com/2019-thumb.jpg" }
+        source: { url: "https://i.postimg.cc/mZKwZtGf/overview-inter-top-1536x766.jpg" }
       },
       cardDetailedText: "Developed first portfolio website and simple CRUD applications using PHP/MySQL."
     },
     {
-      title: "2019",
-      cardTitle: "First Projects",
-      cardSubtitle: "Building Simple Applications",
+      title: "2024",
+      cardTitle: "株式会社 Zeal Team",
+      cardSubtitle: "社内SEとして働いています/ Working as an inhouse developer.",
       media: {
         type: "IMAGE",
-        source: { url: "https://example.com/2019-thumb.jpg" }
+        source: { url: "https://i.postimg.cc/8s8s2239/DSC-8496.jpg" }
       },
-      cardDetailedText: "Developed first portfolio website and simple CRUD applications using PHP/MySQL."
+      cardDetailedText: "I have worked on various robust projects consisting of different programming technologies. I have worked on various robust projects consisting of different programming technologies. During this time I developed my first portfolio website and simple CRUD applications using PHP/MySQL."
     },
     // Add more items for 2020-2025
   ];
@@ -69,6 +69,7 @@ const Timeline = () => {
           cardBgColor: '#111827',
           cardForeColor: 'white',
           titleColor: 'white',
+          cardSubtitleColor: '#ffffff',
         }}
         contentDetailsHeight={120}
         cardWidth={500}
