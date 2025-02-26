@@ -6,7 +6,7 @@ import Card from '@/Components/Card';
 import SkillsChart from '@/Components/SkillsChart';
 import Timeline from '@/Components/Timline';
 import ArtCommissionForm from '@/Components/ArtCommissionForm';
-import TextPressure from '@/Components/TextPressure';
+
 
 const Home = () => {
     return (

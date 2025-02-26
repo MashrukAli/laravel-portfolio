@@ -3,24 +3,26 @@ import { PieChart, Pie, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Leg
 const SkillsChart = () => {
   // Skill duration data for pie chart
   const skillData = [
-    { name: 'JavaScript', years: 4 },
-    { name: 'PHP', years: 3 },
-    { name: 'HTML/CSS', years: 5 },
-    { name: 'Python', years: 2 },
-    { name: 'SQL', years: 3 }
+    { name: 'JavaScript', years: 0.6 },
+    { name: 'PHP', years: 0.9 },
+    { name: 'HTML/CSS', years: 2 },
+    { name: 'Python', years: 0.3 },
+    { name: 'SQL', years: 0.8 },
+    { name: 'Hubl', years: 0.5 }
   ];
-
+  
   // Proficiency data for bar chart
   const proficiencyData = [
-    { language: 'JavaScript', level: 85 },
+    { language: 'JavaScript', level: 65 },
     { language: 'PHP', level: 75 },
     { language: 'HTML/CSS', level: 90 },
-    { language: 'Python', level: 65 },
-    { language: 'SQL', level: 70 }
+    { language: 'Python', level: 35 },
+    { language: 'SQL', level: 70 },
+    { language: 'Hubl', level: 50 }
   ];
 
   // Dark theme colors
-  const COLORS = ['#3B82F6', '#10B981', '#6366F1', '#F59E0B', '#EF4444'];
+  const COLORS = ['#3B82F6', '#10B981', '#6366F1', '#F59E0B', '#EF4444', '#E9762B'];
   
   // Custom tooltip style
   const CustomTooltip = ({ active, payload, label }) => {

@@ -5,8 +5,13 @@ const Navbar = () => {
     return (
         <nav className="bg-gray-900 text-white shadow-md">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                {/* Logo */}
-                <div className="text-lg font-bold">My Portfolio</div>
+                {/* Logo - Home Button */}
+                <Link 
+                    href="/" 
+                    className="text-lg font-bold hover:text-gray-300 transition-colors duration-200"
+                >
+                    Ali's Portfolio
+                </Link>
 
                 {/* Links */}
                 {/* Centered Action Button */}
