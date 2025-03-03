@@ -22,7 +22,7 @@ const Timeline = () => {
         type: "IMAGE",
         source: { url: "https://i.postimg.cc/mZKwZtGf/overview-inter-top-1536x766.jpg" }
       },
-      cardDetailedText: "Information management and web development were the main focus of my studies. I also learned about various subjects such as accounting, finance and economics."
+      cardDetailedText: "Information management and web development were the main focus of my studies. I also learned about various subjects such as accounting, finance and economics. "
     },
     {
       title: "2024",
