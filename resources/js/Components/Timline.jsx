@@ -22,7 +22,7 @@ const Timeline = () => {
         type: "IMAGE",
         source: { url: "https://i.postimg.cc/mZKwZtGf/overview-inter-top-1536x766.jpg" }
       },
-      cardDetailedText: "Developed first portfolio website and simple CRUD applications using PHP/MySQL."
+      cardDetailedText: "Information management and web development were the main focus of my studies. I also learned about various subjects such as accounting, finance and economics."
     },
     {
       title: "2024",
@@ -32,7 +32,7 @@ const Timeline = () => {
         type: "IMAGE",
         source: { url: "https://i.postimg.cc/8s8s2239/DSC-8496.jpg" }
       },
-      cardDetailedText: "I have worked on various robust projects consisting of different programming technologies. I have worked on various robust projects consisting of different programming technologies. During this time I developed my first portfolio website and simple CRUD applications using PHP/MySQL."
+      cardDetailedText: "I have worked on various robust projects consisting of different programming technologies. During this time I developed my first portfolio website and simple CRUD applications using PHP/MySQL."
     },
     // Add more items for 2020-2025
   ];
